@@ -1,4 +1,4 @@
-Parte 1: Introducción teórica a la especificidad.
+<h1>Parte 1: Introducción teórica a la especificidad.</h1>
 
 <h2>1. ¿Qué es la especificidad?</h2>
   - El navegador decide que reglas del CSS aplica, dependiendo de su peso, siempre escogiendo la opción con mas relevancia en el HTML (Etiqueta = 1), (Clase = 10), (ID = 100).
