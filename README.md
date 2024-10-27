@@ -26,6 +26,7 @@ Parte 1: Introducción teórica a la especificidad.
 El resultado esperado es que el texto sea rojo, puesto que el selector ID posee mayor especificidad que los selectores de clase y etiqueta.
 
 2. Demostración de ! important:
+   
 ![image](https://github.com/user-attachments/assets/d086c8b4-9b10-43cb-a09f-9ff7e87378a7)
 
 En este documento podemos ver que no importa que tanta especificidad posean los otros elementos, porque !important tiene prioridad.
@@ -39,7 +40,7 @@ Dado el siguiente codigo, los participantes deben calcular la especificidad y de
 ![image](https://github.com/user-attachments/assets/a69d8632-5b5a-48d5-b028-4643910d7876)
 
 Pregunta:
-  - ¿Qué color tendrá el título <h1>?
+  - ¿Qué color tendrá el título h1?
   - Respuesta: El titulo será de color rojo, puesto que el selector ID tiene mayor especificidad.
 
 Ejercicio 2: Resolviendo conflictos de especificidad.
@@ -62,9 +63,9 @@ HTML:
 ![image](https://github.com/user-attachments/assets/e36f0529-fca5-48ac-9ecc-57ce07d919b6)
 
 Desafío CSS:
-  -El <h1> en el header debe ser de color blanco
-  -El texto del <p> en .content debe ser rojo.
-  -El texto del <footer> debe ser gris.
+  -El h1 en el header debe ser de color blanco
+  -El texto del p en .content debe ser rojo.
+  -El texto del footer debe ser gris.
 
 Pistas:
   -Usar selectores combinados (clases y etiquetas).
