@@ -1,6 +1,6 @@
 Parte 1: Introducción teórica a la especificidad.
 
-1. ¿Qué es la especificidad?
+<h2>1. ¿Qué es la especificidad?</h2>
   - El navegador decide que reglas del CSS aplica, dependiendo de su peso, siempre escogiendo la opción con mas relevancia en el HTML (Etiqueta = 1), (Clase = 10), (ID = 100).
 
   - Los selectores básicos son:
@@ -19,7 +19,7 @@ Parte 1: Introducción teórica a la especificidad.
    Link a las diapositivas https://www.canva.com/design/DAGUlbzGR-Q/O888yApm_0OPPjZzZbRGtA/view?utm_content=DAGUlbzGR-Q&utm_campaign=designshare&utm_medium=link&utm_source=editor
 
 
-Parte 2: Ejemplos Prácticos
+<h2>Parte 2: Ejemplos Prácticos</h2>
 1. Ejemplo Basico:
 ![si](https://github.com/user-attachments/assets/c6243cdf-d1e2-40e6-bec8-770828f4776d)
 
@@ -30,7 +30,7 @@ El resultado esperado es que el texto sea rojo, puesto que el selector ID posee 
 
 En este documento podemos ver que no importa que tanta especificidad posean los otros elementos, porque !important tiene prioridad.
 
-Parte 3: Ejercicios Prácticos
+<h2>Parte 3: Ejercicios Prácticos</h2>
 
 Ejercicio 1: Calculando la especificidad
 
@@ -39,7 +39,7 @@ Dado el siguiente codigo, los participantes deben calcular la especificidad y de
 ![image](https://github.com/user-attachments/assets/a69d8632-5b5a-48d5-b028-4643910d7876)
 
 Pregunta:
-  - ¿Qué color tendrá el título <h1> ?
+  - ¿Qué color tendrá el título <h1>?
   - Respuesta: El titulo será de color rojo, puesto que el selector ID tiene mayor especificidad.
 
 Ejercicio 2: Resolviendo conflictos de especificidad.
@@ -52,7 +52,7 @@ Una solución, es agregar un selector con mayor especificidad, como en este caso
 
 ![image](https://github.com/user-attachments/assets/f6dd7679-71e2-43bc-80e2-2c2fe94edf6d)
 
-Parte 4: Desafío Final
+<h2>Parte 4: Desafío Final</h2>
 
 Dales a los participantes un archivo HTML con múltiples elementos y clases, y pídeles que
 agreguen estilos CSS para lograr un diseño específico. Deberán aplicar todo lo aprendido sobre
@@ -71,7 +71,7 @@ Pistas:
   -Resolver conflictos de estilo con la especificidad correcta.
 
 
-Parte 5: Revisión y discusión
+<h2>Parte 5: Revisión y discusión</h2>
 
 La solución de un participante fue la siguiente:
 
