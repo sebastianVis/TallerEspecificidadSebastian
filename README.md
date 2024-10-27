@@ -21,7 +21,7 @@
 
 <h2>Parte 2: Ejemplos Prácticos</h2>
 1. Ejemplo Basico:
-![si](https://github.com/user-attachments/assets/c6243cdf-d1e2-40e6-bec8-770828f4776d)
+![image](https://github.com/user-attachments/assets/c6243cdf-d1e2-40e6-bec8-770828f4776d)
 
 El resultado esperado es que el texto sea rojo, puesto que el selector ID posee mayor especificidad que los selectores de clase y etiqueta.
 
